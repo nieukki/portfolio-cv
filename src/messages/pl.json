@@ -1,0 +1,19 @@
+{
+  "SettingsDialog": {
+    "title": "Ustawienia",
+    "description": "Wybierz swój motyw i język.",
+    "theme": "Motyw",
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "system": "System",
+    "language": "Język",
+    "polish": "Polski",
+    "english": "Angielski"
+  },
+  "Navbar": {
+    "home": "Home",
+    "projects": "Projekty",
+    "about": "O mnie",
+    "contact": "Kontakt"
+  }
+}
