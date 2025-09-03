@@ -40,7 +40,8 @@ const ReviewCard = ({ img }: { img: string }) => {
         "border-gray-950/[.1] bg-gray-950/[.01] ",
         // dark styles
         "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] "
-      )}>
+      )}
+    >
       <Image width={96} height={96} alt="siema" src={img} />
     </figure>
   );
@@ -54,7 +55,8 @@ export function Marquee3D() {
         style={{
           transform:
             "translateX(-100px) translateY(0px) translateZ(-100px) rotateX(20deg) rotateY(-10deg) rotateZ(20deg)",
-        }}>
+        }}
+      >
         <Marquee pauseOnHover vertical className="[--duration:20s]">
           {firstRow.map((skill) => (
             <ReviewCard key={skill.img} {...skill} />
